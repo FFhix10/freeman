@@ -123,7 +123,7 @@
     "react-modal": "^3.3.2",
     "react-resize-detector": "^3.2.1",
     "react-scrollbar": "^0.5.1",
-    "react-split-pane": "^0.1.68",
+    "react-split-pane": "^0.1.92",
     "react-throttle": "^0.3.0",
     "reflect-metadata": "^0.1.10",
     "trash": "^4.2.1",
