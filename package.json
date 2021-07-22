@@ -120,7 +120,7 @@
     "react-dom": "^16.5.0",
     "react-hotkeys": "^1.1.1",
     "react-icons": "^3.2.2",
-    "react-modal": "^3.3.2",
+    "react-modal": "^3.12.1",
     "react-resize-detector": "^3.2.1",
     "react-scrollbar": "^0.5.4",
     "react-split-pane": "^0.1.68",
