@@ -39,7 +39,9 @@
     "package": "electron-builder",
     "postinstall": "electron-builder install-app-deps",
     "lint": "concurrently \"tslint --project tsconfig.json --fix\" \"markdownlint *.md docs/*.md .github/*.md\"",
-    "docs": "typedoc --out docs/generated --mode modules --excludePrivate --excludeProtected --excludeExternals src"
+    "docs": "typedoc --out docs/generated --mode modules --excludePrivate --excludeProtected --excludeExternals src",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "homepage": "https://github.com/matthew-matvei/freeman#readme",
   "devDependencies": {
@@ -128,6 +130,8 @@
     "reflect-metadata": "^0.1.10",
     "trash": "^4.2.1",
     "tslib": "^1.9.0",
-    "xterm": "2.9.2"
-  }
+    "xterm": "2.9.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

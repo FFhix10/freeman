@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - enzyme > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - enzyme-adapter-react-16 > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - typemoq > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - webpack-merge > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - react-throttle > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - enzyme > cheerio > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - enzyme-adapter-react-16 > enzyme-adapter-utils > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - source-map-loader > async > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - webpack-cli > inquirer > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - react-throttle > enzyme > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - typedoc > handlebars > async > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - concurrently > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - css-loader > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - typedoc > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - react-resize-detector > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
+    - awesome-typescript-loader > lodash:
+        patched: '2022-03-25T21:00:36.478Z'
